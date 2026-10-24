@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Friendship reply</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f7;
+  padding: 30px 15px;
+  text-align: center;
+}
+main {
+  background: white;
+  max-width: 380px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 14px;
+}
+.notice { color: #c62828; font-weight: bold; }
+button {
+  background: #2457c5;
+  color: white;
+  border: 0;
+  padding: 13px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+#warning {
+  margin-top: 20px;
+  padding: 15px;
+  background: #e8f5e9;
+  border-radius: 8px;
+}
+</style>
+</head>
+<body>
+<main>
+  <p class="notice">TRAINING DEMO</p>
+  <h2>Phishing Awareness</h2>
+  <p>Ye ek educational demo hai, Instagram nahi.</p>
+  <p>Asli login se pehle website ka address zaroor check karein.</p>
+  <button onclick="document.getElementById('warning').hidden=false">
+    Start Demo
+  </button>
+  <div id="warning" hidden>
+    <h3>Security Alert!</h3>
+    <p>Unknown links par password ya OTP kabhi enter na karein.</p>
+    <p>Link ka domain verify karein aur two-factor authentication on rakhein.</p>
+  </div>
+</main>
+</body>
+  </html>
+  
